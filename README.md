@@ -8,4 +8,4 @@ Given a database, results can be reconstructed in the following manner:
 2. Edit Run_model to pull data from the stored graphs and deposit the final results in desired folders, then run it. The other run_model scripts are there to record other parameter choices.
 3. Edit Make_comparison_plot.py to pull results from the previous step and deposit the plots in desired folders, then run it. The other make_plot scripts are there to generate plots for angular and probabilistic regression.
 
-The lossfunction.py contains the logcosh loss function and the Von mises fisher sine cosine loss function. Processing.py contains a number of functions necessary to make the multiprocessing work.
+The lossfunction.py script contains the logcosh loss function and the Von mises fisher sine cosine loss function. Processing.py contains a number of functions necessary to make the multiprocessing work.
